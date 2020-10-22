@@ -8,66 +8,55 @@
   </head>
   <body>
     <div class="main-menu">
-      <div class="main-menu__block">
-        <header class="header">
-          <div class="header__block">
-            <button type="button" class="button header__button--close" aria-label="Закрыть меню" title="Меню" href="#"></button>
-            <div class="logo header__logo">
-              <a href="#"><img src="images/Group.svg" alt="логотип компании"></a>
-            </div>
-          </div>
-          <div class="header__block">
-            <button type="button" class="button header__button--search" aria-label="Поиск по сайту" title="Поиск" href="#"></button>
-          </div>
-        </header>
-
-        <nav class="navigation">
-          <ul class="navigation__list navigation__nav-list">
-            <li class="navigation__item navigation__item--active">
-              <a class="link navigation__text-link--active" href="#">Ремонт техники</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Услуги и сервисы</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Корпоративным клиентам</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Продавцам техники</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Партнёрам</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Производителям</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Наши сервисные центры</a>
-            </li>
-            <li class="navigation__item navigation__item--normal">
-              <a class="link navigation__text-link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="btn-block main-menu__btn-block">
+        <button type="button" class="btn btn--close btn--btn-close" aria-label="Закрыть меню" title="Меню" href="#"></button>
+        <div class="logo main-menu__logo">
+          <a href="#"><img src="images/Group.svg" alt="логотип компании"></a>
+        </div>
+        <button type="button" class="btn btn--search btn--btn-search" aria-label="Поиск по сайту" title="Поиск" href="#"></button>
       </div>
+      <nav class="nav main-menu__nav">
+        <ul class="nav__list">
+          <li class="item nav__item nav__item--active">
+            <a class="link nav__text-link--active" href="#">Ремонт техники</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Услуги и сервисы</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Корпоративным клиентам</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Продавцам техники</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Партнёрам</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Производителям</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Наши сервисные центры</a>
+          </li>
+          <li class="item nav__item">
+            <a class="link nav__text-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="main-menu__block">
-        <footer class="footer footer__box">
-          <div class="footer__button">
-            <button type="button" class="button footer__button--call" aria-label="Кнопка позвонить" title="Позвонить" href="#"></button>
-            <button type="button" class="button footer__button--chat" aria-label="Написать в поддержку" title="Поддержка" href="#"></button>
-            <button type="button" class="button footer__button--profile" aria-label="Посмотреть профиль" title="Профиль" href="#"></button>
-          </div>
-          <div class="footer__contact">
-            <a href="#" class="link footer__email">mail@cps.com</a>
-            <a href="#" class="link footer__tel">8 800 890 8900</a>
-          </div>
-          <div class="footer__lang">
-            <a href="#"class="link footer__link--lang--active">RU</a>
-            <a href="#"class="link footer__link--lang">EN</a>
-            <a href="#"class="link footer__link--lang">CH</a>
-          </div>
-        </footer>
+      <div class="btn-block main-menu__btn-block">
+        <button type="button" class="btn btn--call btn--btn-call" aria-label="Кнопка позвонить" title="Позвонить" href="#"></button>
+        <button type="button" class="btn btn--chat btn--btn-chat" aria-label="Написать в поддержку" title="Поддержка" href="#"></button>
+        <button type="button" class="btn btn--profile btn--btn-profile" aria-label="Посмотреть профиль" title="Профиль" href="#"></button>
+      </div>
+      <div class="contact-form main-menu__contact-form">
+        <a href="mailto:mail@cps.com" class="link contact-form__email">mail@cps.com</a>
+        <a href="tel:88008908900" class="link contact-form__tel">8 800 890 8900</a>
+      </div>
+      <div class="lang-form main-menu__lang-form">
+        <a href="#"class="link lang-form__link--lang--active">RU</a>
+        <a href="#"class="link lang-form__link--lang">EN</a>
+        <a href="#"class="link lang-form__link--lang">CH</a>
       </div>
     </div>
   </body>
